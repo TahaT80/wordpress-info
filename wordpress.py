@@ -1059,7 +1059,7 @@ aweber-web-form-widget
         except:
             print("")
             sys.exit()
-    input(Fore.GREEN+"\n [*] Back To Menu (Press Enter...) ")
+    input(Fore.GREEN+"\n [*] Back To Again (Press Enter...) ")
 
 
 def user():
@@ -1106,7 +1106,7 @@ def user():
               " [!] "+Fore.LIGHTWHITE_EX+"Or Plase Check Your Connection\n"+"\n"+Fore.BLUE+" [!] "+Fore.YELLOW+"Or I could not find the username\n ")
         sys.exit()
     try:
-        input(Fore.RED+" [!] "+Fore.GREEN+"Back To Menu (Press Enter...) ")
+        input(Fore.RED+" [!] "+Fore.GREEN+"Back To Again (Press Enter...) ")
     except:
         print("")
         sys.exit()
