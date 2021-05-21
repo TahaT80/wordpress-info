@@ -1022,8 +1022,8 @@ aweber-web-form-widget
     print(Fore.RED+"\n [!] for exampel : test.com\n")
     try:
 
-        url = input(Fore.RED+" ┌─["+Fore.LIGHTGREEN_EX+"Tahat80"+Fore.BLUE+"~"+Fore.WHITE+"@check Plugins"+Fore.RED+"""]
- └─╼ 卐 """).lower()
+        url = input(Fore.RED+" ┌─["+Fore.LIGHTGREEN_EX+"Tahat80"+Fore.BLUE+"/"+Fore.WHITE+"check Plugins"+Fore.RED+"""]
+ └─╼ >> """).lower()
         if url == "" or None:
 
             time.sleep(1)
@@ -1067,8 +1067,8 @@ def user():
         print(Fore.GREEN+" [+] Please Enter WordPress URL\n")
         print(Fore.RED+" [!] Please Do Not Include Http\n")
         print(Fore.RED+"\n [!] for exampel : test.com\n")
-        Url = input(Fore.RED+" ┌─["+Fore.LIGHTGREEN_EX+"Tahat80"+Fore.BLUE+"~"+Fore.WHITE+"@Get-Username"+Fore.RED+"""]
- └──╼ """+Fore.WHITE+"卐 ").lower()
+        Url = input(Fore.RED+" ┌─["+Fore.LIGHTGREEN_EX+"Tahat80"+Fore.BLUE+"/"+Fore.WHITE+"Get-Username"+Fore.RED+"""]
+ └──╼ """+Fore.WHITE+">> ").lower()
 
         s = requests.get("http://"+Url+"/wp-content/plugins/")
         if s.status_code == 404 or s.status_code == 500:
