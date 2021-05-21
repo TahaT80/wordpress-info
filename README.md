@@ -4,7 +4,8 @@
 
 
 creat by Amir Hossein Tadas & TAHA
-instagram =  [Taha_t_80]
+
+    instagram =  Taha_t_80
 
 
 
